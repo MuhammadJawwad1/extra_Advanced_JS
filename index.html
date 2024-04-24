@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Adiv , #Bdiv , #Cdiv , #Ddiv , #Ediv , #Fdiv , #Gdiv , #Hdiv , #Idiv, #result {
+            font-size: 50px;
+
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function funcA(){
+            var Bdiv= document.getElementById('Adiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Bdiv.innerText
+            Rdiv.style.display='block'
+        }
+        function funcB(){
+            var Bdiv= document.getElementById('Bdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Bdiv.innerText
+            console.log(Bdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcC(){
+            var Cdiv= document.getElementById('Cdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Adiv.innerText
+            console.log(Cdiv.innerText)
+            Cdiv.style.display='block'
+        }
+    </script>
+</head>
+<body>
+    <button id="A" onclick="funcA()">A</button>
+    <button id="B" onclick="funcB()">B</button>
+    <button id="C" onclick="funcC()">C</button>
+    <button id="D" onclick="funcD()">D</button>
+    <button id="E" onclick="funcE()">E</button>
+    <button id="F" onclick="funcF()">F</button>
+    <button id="G" onclick="funcG()">G</button>
+    <button id="H" onclick="funcH()">H</button>
+    <button id="I" onclick="funcI()">I</button>
+
+    <div id="Adiv">Ant</div>
+    <div id="Bdiv">Butterfly</div>
+    <div id="Cdiv">Cat</div>
+    <div id="Ddiv">Dog</div>
+    <div id="Ediv">Elephent</div>
+    <div id="Fdiv">Frog</div>
+    <div id="Gdiv">Giraffe</div>
+    <div id="Hdiv">Hen</div>
+    <div id="Idiv">Ironman</div>
+    <div id="result"></div>
+</body>
+</html>
