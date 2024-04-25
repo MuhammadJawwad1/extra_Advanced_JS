@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #Adiv , #Bdiv , #Cdiv , #Ddiv , #Ediv , #Fdiv , #Gdiv , #Hdiv , #Idiv, #result {
+        #Adiv , #Bdiv , #Cdiv , #Ddiv , #Ediv , #Fdiv , #Gdiv , #Hdiv , #Idiv, #Jdiv, #Kdiv, #Ldiv, #Mdiv, #Ndiv, #Odiv, #Pdiv, #Qdiv, #rdiv, #Sdiv, #Tdiv, #Udiv , #Vdiv, #Wdiv ,#Xdiv ,#Ydiv , #Zdiv ,  #result {
             font-size: 50px;
-
             display: none;
+        }
+        .main{
+            display: flex;
+            
+        }
+        .left{
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+        .right{
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+        }
+        .left button{
+            padding: 10px 20px;
         }
     </style>
     <script type="text/javascript">
         function funcA(){
-            var Bdiv= document.getElementById('Adiv')
+            var Adiv= document.getElementById('Adiv')
             var Rdiv= document.getElementById('result')
-            Rdiv.innerHTML=Bdiv.innerText
+            Rdiv.innerHTML=Adiv.innerText
+            console.log(Adiv.innerText);
             Rdiv.style.display='block'
         }
         function funcB(){
@@ -28,15 +45,178 @@
         function funcC(){
             var Cdiv= document.getElementById('Cdiv')
             var Rdiv= document.getElementById('result')
-            Rdiv.innerHTML=Adiv.innerText
+            Rdiv.innerHTML=Cdiv.innerText
             console.log(Cdiv.innerText)
-            Cdiv.style.display='block'
+            Rdiv.style.display='block'
+        }
+        function funcD(){
+            var Ddiv= document.getElementById('Ddiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Ddiv.innerText
+            console.log(Ddiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcE(){
+            var Ediv= document.getElementById('Ediv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Ediv.innerText
+            console.log(Ediv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcF (){
+            var Fdiv= document.getElementById('Fdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Fdiv.innerText
+            console.log(Fdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcG(){
+            var Gdiv= document.getElementById('Gdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Gdiv.innerText
+            console.log(Gdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcH(){
+            var Hdiv= document.getElementById('Hdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Hdiv.innerText
+            console.log(Hdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcI(){
+            var Idiv= document.getElementById('Idiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Idiv.innerText
+            console.log(Idiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcJ(){
+            var Jdiv= document.getElementById('Jdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Jdiv.innerText
+            console.log(Jdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcK(){
+            var Kdiv= document.getElementById('Kdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Kdiv.innerText
+            console.log(Kdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcL(){
+            var Ldiv= document.getElementById('Ldiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Ldiv.innerText
+            console.log(Ldiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcM(){
+            var Mdiv= document.getElementById('Mdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Mdiv.innerText
+            console.log(Mdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcN(){
+            var Ndiv= document.getElementById('Ndiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Ndiv.innerText
+            console.log(Ndiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcO(){
+            var Odiv= document.getElementById('Odiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Odiv.innerText
+            console.log(Odiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcP(){
+            var Pdiv= document.getElementById('Pdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Pdiv.innerText
+            console.log(Pdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcQ(){
+            var Qdiv= document.getElementById('Qdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Qdiv.innerText
+            console.log(Qdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcR(){
+            var rdiv= document.getElementById('rdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=rdiv.innerText
+            console.log(rdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcS(){
+            var Sdiv= document.getElementById('Sdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Sdiv.innerText
+            console.log(Sdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcT(){
+            var Tdiv= document.getElementById('Tdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Tdiv.innerText
+            console.log(Tdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcU(){
+            var Udiv= document.getElementById('Udiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Udiv.innerText
+            console.log(Udiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcV(){
+            var Vdiv= document.getElementById('Vdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Vdiv.innerText
+            console.log(Vdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcW(){
+            var Wdiv= document.getElementById('Wdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Wdiv.innerText
+            console.log(Wdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcX(){
+            var Xdiv= document.getElementById('Xdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Xdiv.innerText
+            console.log(Xdiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcY(){
+            var Ydiv= document.getElementById('Ydiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Ydiv.innerText
+            console.log(Ydiv.innerText);
+            Rdiv.style.display='block'
+        }
+        function funcZ(){
+            var Zdiv= document.getElementById('Zdiv')
+            var Rdiv= document.getElementById('result')
+            Rdiv.innerHTML=Zdiv.innerText
+            console.log(Zdiv.innerText);
+            Rdiv.style.display='block'
         }
     </script>
 </head>
 <body>
-    <button id="A" onclick="funcA()">A</button>
-    <button id="B" onclick="funcB()">B</button>
+    <section class="main">
+    <div class="left">
+        <button id="A" onclick="funcA()">A</button>
+        <button id="B" onclick="funcB()">B</button>
     <button id="C" onclick="funcC()">C</button>
     <button id="D" onclick="funcD()">D</button>
     <button id="E" onclick="funcE()">E</button>
@@ -44,7 +224,25 @@
     <button id="G" onclick="funcG()">G</button>
     <button id="H" onclick="funcH()">H</button>
     <button id="I" onclick="funcI()">I</button>
-
+    <button id="J" onclick="funcJ()">J</button>
+    <button id="K" onclick="funcK()">K</button>
+    <button id="L" onclick="funcL()">L</button>
+    <button id="M" onclick="funcM()">M</button>
+    <button id="N" onclick="funcN()">N</button>
+    <button id="O" onclick="funcO()">O</button>
+    <button id="P" onclick="funcP()">P</button>
+    <button id="Q" onclick="funcQ()">Q</button>
+    <button id="r" onclick="funcR()">R</button>
+    <button id="S" onclick="funcS()">S</button>
+    <button id="T" onclick="funcT()">T</button>
+    <button id="U" onclick="funcU()">U</button>
+    <button id="V" onclick="funcV()">V</button>
+    <button id="W" onclick="funcW()">W</button>
+    <button id="X" onclick="funcX()">X</button>
+    <button id="Y" onclick="funcY()">Y</button>
+    <button id="Z" onclick="funcZ()">Z</button>
+</div>
+<div class="right">
     <div id="Adiv">Ant</div>
     <div id="Bdiv">Butterfly</div>
     <div id="Cdiv">Cat</div>
@@ -53,7 +251,26 @@
     <div id="Fdiv">Frog</div>
     <div id="Gdiv">Giraffe</div>
     <div id="Hdiv">Hen</div>
-    <div id="Idiv">Ironman</div>
+    <div id="Idiv">Iguana</div>
+    <div id="Jdiv">Jaguar</div>
+    <div id="Kdiv">Kangroo</div>
+    <div id="Ldiv">Lion</div>
+    <div id="Mdiv">Monkey</div>
+    <div id="Ndiv">Newt</div>
+    <div id="Odiv">Octopus</div>
+    <div id="Pdiv">Penguin</div>
+    <div id="Qdiv">Quail</div>
+    <div id="rdiv">Rabbit</div>
+    <div id="Sdiv">Sloth</div>
+    <div id="Tdiv">Tiger</div>
+    <div id="Udiv">Urchin</div>
+    <div id="Vdiv">Vulture</div>
+    <div id="Wdiv">Walrus</div>
+    <div id="Xdiv">Xerus</div>
+    <div id="Ydiv">Yak</div>
+    <div id="Zdiv">Zebra</div>
     <div id="result"></div>
+</div>
+</section>
 </body>
 </html>
